@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Guru Mandir</string>
+    <string name="title_activity_map">Map</string>
+    <string name="date_selected"></string>
+    <string name="date_selected_from">from</string>
+    <string name="date_selected_to">to</string>
+
+    <string name="Single">Single</string>
+    <string name="Double">Double</string>
+
+    <string-array name="Room_Type">
+        <item>Single</item>
+        <item>Double</item>
+    </string-array>
+
+</resources>

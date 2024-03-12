@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage2"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_donation"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="35dp"
+            app:cardBackgroundColor="@color/nocolor"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/donate_round"
+                    android:layout_marginTop="13dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Donate"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/red"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_pass"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="35dp"
+            app:cardBackgroundColor="@color/nocolor"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/rituals_round"
+                    android:layout_marginTop="13dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rituals"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_books"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="35dp"
+            app:cardBackgroundColor="@color/nocolor"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@mipmap/books_round"
+                    android:layout_marginTop="13dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Library"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_room"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="35dp"
+            app:cardBackgroundColor="@color/nocolor"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/room_round"
+                    android:layout_marginTop="13dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Room"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/cd_gallery"
+            android:layout_weight="1"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/nocolor">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/gallery_round"
+                    android:layout_marginTop="13dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gallery"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/red"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/cd_event"
+                android:layout_weight="1"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/nocolor">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/event_round"
+                        android:layout_marginTop="13dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Events"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/red"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+</LinearLayout>

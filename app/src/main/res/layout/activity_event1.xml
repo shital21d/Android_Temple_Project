@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Event.Event1"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shri Nrusinha Saraswati Swami Maharaj Sansthan"
+        android:gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karanja, Dist. Washim,  Maharashtra,  INDIA 444105"
+        android:gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone # (07256) 222455 / 224755"
+        android:gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shloka"
+        android:layout_gravity="center_horizontal"
+        android:text="Click for ||Digambara..Digambara..||"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      Shri Nrusimha Saraswati Gurumaharaj is the 2nd avatar (incarnation) of Lord Dattatreya.  Born in Karanja, He travelled far and wide in what are now known as the States of Maharashtra, Karnataka, and Andhra Pradesh.  He achieved Sainthood and performed several miracles.  He imparted spiritual knowledge to his disciples, many of whom themselves attained Sainthood."
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      The Gurumandir Temple conducts several major events to celebrate the various avatars of Lord Dattatreya.  Over the past 70 years, Gurumandir has become a nucleus for religious and social welfare activities in the North Maharashtra (Vidarbha) region."
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/utsav_pdf"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Utsav Schedule"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="For more information click on link given below:"
+                android:textSize="14sp"
+                android:textColor="@color/grey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/web"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="25dp"
+                android:layout_gravity="center_horizontal"
+                android:text="www.gurumandir.org"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"
+                android:textColor="@color/dark_blue"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
